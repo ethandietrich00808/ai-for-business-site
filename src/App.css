@@ -1,0 +1,35 @@
+.app-container {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.main-content-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin-left: 250px; /* Match sidebar width */
+}
+
+.content-container {
+  flex: 1;
+  padding: 2rem;
+  background-color: var(--background-color);
+}
+
+@media (max-width: 768px) {
+  .main-content-wrapper {
+    margin-left: 0;
+  }
+  
+  .content-container {
+    padding: 1rem;
+  }
+}
+
+/* Remove old nav styles */
+.nav-menu,
+.nav-link {
+  display: none;
+} 
