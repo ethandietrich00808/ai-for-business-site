@@ -6,6 +6,7 @@ import './Report.css';
 import workplaceImage from '../assets/Elliot_Dashboard_Screenshot.png';
 import careersImage from '../assets/Lorna_Dashboard_Screenshot.png';
 import skillsTimeImage from '../assets/Smruti_Dashboard_Screenshot.png';
+import ethanImage from '../assets/Ethan_Dashboard_Screenshot.png';
 
 const Report = () => {
   const navigate = useNavigate();
@@ -28,7 +29,7 @@ const Report = () => {
     },
     {
       title: "Skills by Industry",
-      image: "https://placehold.co/600x400/FF8200/ffffff?text=AI+Industries",
+      image: ethanImage,
       link: "/dashboard/industry"
     }
   ];
@@ -39,7 +40,7 @@ const Report = () => {
         fontSize: '2rem', 
         fontWeight: 'bold', 
         marginBottom: '2rem',
-        color: '#58595B'
+        color: '#FF8200'
       }}>
         AI Skills Analysis Dashboards
       </h1>

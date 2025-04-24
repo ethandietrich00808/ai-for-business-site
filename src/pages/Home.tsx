@@ -9,7 +9,7 @@ const Home = () => {
     <div className="home-container">
       <div className="hero-section">
         <h1 className="hero-title">AI For Business Research</h1>
-        <p className="hero-subtitle">Exploring the impact of artificial intelligence on modern business practices</p>
+        <p className="hero-subtitle">Analyzing the impact of artificial intelligence on workforce demands and the evolving skill sets required in the modern job market</p>
         <button 
           className="cta-button"
           onClick={() => navigate('/report')}
