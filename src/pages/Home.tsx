@@ -21,11 +21,11 @@ const Home = () => {
       <div className="features-section">
         <div className="feature-card">
           <h2>Research Focus</h2>
-          <p>Our team investigates how AI technologies are transforming business operations, workforce dynamics, and industry standards.</p>
+          <p>Our team investigates how AI skills are transforming business operations, workforce dynamics, and industry standards.</p>
         </div>
         <div className="feature-card">
           <h2>Data-Driven Insights</h2>
-          <p>Leveraging advanced analytics and machine learning to uncover meaningful patterns in business and employment data.</p>
+          <p>Leveraging advanced analytics to uncover meaningful patterns in business and employment data.</p>
         </div>
         <div className="feature-card">
           <h2>Industry Impact</h2>
