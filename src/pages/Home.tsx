@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div className="home-container">
       <div className="hero-section">
-        <h1 className="hero-title">AI For Business Research</h1>
+        <h1 className="hero-title">AI For Business UTK</h1>
         <p className="hero-subtitle">Analyzing the impact of artificial intelligence on workforce demands and the evolving skill sets required in the modern job market</p>
         <button 
           className="cta-button"
