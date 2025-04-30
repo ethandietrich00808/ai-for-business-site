@@ -7,7 +7,7 @@ const WorkplaceDashboard = () => {
       <h1>A Tale of Two Cities: An AI Driven Workplace</h1>
       <div className="iframe-container">
         <iframe
-          src="https://datalab.utk.edu/apps/AI_DashboardPart2/"
+          src="https://datalab.utk.edu/ai-for-business-dashboard/AIDashbboard/"
           title="AI Workplace Dashboard"
           className="dashboard-iframe"
         />

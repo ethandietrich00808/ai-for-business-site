@@ -7,7 +7,7 @@ const CareersDashboard = () => {
       <h1>Building Careers with AI Skills</h1>
       <div className="iframe-container">
         <iframe
-          src="https://gra-ai-dashboard.onrender.com/"
+          src="https://datalab.utk.edu/ai-for-business-dashboard/GRA_AI_Dashboard/"
           title="AI Careers Dashboard"
           className="dashboard-iframe"
         />

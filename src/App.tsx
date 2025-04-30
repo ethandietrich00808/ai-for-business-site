@@ -8,6 +8,7 @@ import Research from './pages/Research';
 import Report from './pages/Report';
 import CareersDashboard from './pages/CareersDashboard';
 import WorkplaceDashboard from './pages/WorkplaceDashboard';
+import SkillsTimeDashboard from './pages/SkillsTimeDashboard';
 import './App.css';
 
 const App = () => {
@@ -24,6 +25,7 @@ const App = () => {
               <Route path="/report" element={<Report />} />
               <Route path="/dashboard/careers" element={<CareersDashboard />} />
               <Route path="/dashboard/workplace" element={<WorkplaceDashboard />} />
+              <Route path="/dashboard/skills-time" element={<SkillsTimeDashboard />} />
             </Routes>
           </div>
           <Footer />
